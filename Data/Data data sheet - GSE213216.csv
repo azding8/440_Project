@@ -1,0 +1,9 @@
+Patient,ID,Major Class,Anatomic annotation,GEO_id,SRR
+8,Sample14,No endometriosis detected,Anterior cul de sac & Pelvic side wall (R),GSM6574518,SRR26383972
+8,Sample15,Endometrioma,Ovarian cyst (L),GSM6574519,SRR26383973
+8,Sample16,Endometriosis,Uterosacral ligament (L),GSM6574520,SRR26383974
+8,Sample17,No endometriosis detected,Rectal Serosa,GSM6574521,SRR26383975
+10,Sample24,Eutopic Endometrium,Endometrium,GSM6574528,SRR26383982
+10,Sample25,No endometriosis detected,Uterosacral ligament (L),GSM6574529,SRR26383983
+10,Sample26,Endometriosis,Uterosacral ligament (R),GSM6574530,SRR26383984
+10,Sample27,No endometriosis detected,Bladder,GSM6574531,SRR26383985
