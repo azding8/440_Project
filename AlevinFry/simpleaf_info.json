@@ -1,0 +1,16 @@
+{
+  "prog_info": {
+    "alevin_fry": {
+      "exe_path": "/home/gridsan/elu/.conda/envs/rnavelo/bin/alevin-fry",
+      "version": "0.9.0"
+    },
+    "piscem": {
+      "exe_path": "/home/gridsan/elu/.conda/envs/rnavelo/bin/piscem",
+      "version": "0.8.0"
+    },
+    "salmon": {
+      "exe_path": "/home/gridsan/elu/.conda/envs/rnavelo/bin/salmon",
+      "version": "1.10.3"
+    }
+  }
+}
