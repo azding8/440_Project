@@ -21,13 +21,13 @@ Primary sequencing data are available at the following link:
 [GSE213216](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213216)
 
 ## Folder structure
-`Cluster_scripts` contains shell scripts used to download fastqs from Sequence Read Archive (SRA) and process them into spliced/unspliced count matrices. These files are relevant to our final project, but are not used to generate a figure for Pset 6.
+`Cluster_scripts` contains shell scripts used to download fastqs from Sequence Read Archive (SRA) and process them into spliced/unspliced count matrices.
 
-`Data` contains a csv file with the GEO acession ids for the 8 samples used in the violin plot for Pset 6.
+`Figures` contains PNGs of the figures in the written report.
 
-`Figures` contains a png of the mitochondrial violin plot figure for Pset 6.
+`R_scripts` contains the R script used to perform analysis on ovarian epithelial cells.
 
-`R_scripts` contains the R script used to generate the mitochondrial violin plot figure for Pset 6.
+`CSVs` contains a CSV of the DEGs between endometrioma and unaffected ovary epithelial cells.
 
 ## Installation
 How do I run your code?
