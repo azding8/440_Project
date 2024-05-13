@@ -21,19 +21,26 @@ Primary sequencing data are available at the following link:
 [GSE213216](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213216)
 
 ## Folder structure
-`Cluster_scripts` contains shell scripts used to download fastqs from Sequence Read Archive (SRA) and process them into spliced/unspliced count matrices.
+The home directory contains 
+
+`slurmScripts` contains shell scripts used to download fastqs from Sequence Read Archive (SRA), process them into spliced/unspliced count matrices, and run the scVelo quantitative splicing analyses.
 
 `Figures` contains PNGs of the figures in the written report.
 
 `R_scripts` contains the R script used to perform analysis on ovarian epithelial cells.
 
+`Py_scripts` contains python-based scripts used for analyses and visualization.
+
 `CSVs` contains a CSV of the DEGs between endometrioma and unaffected ovary epithelial cells.
+
+`Data` contains auxiliary tables for analyses and visualization.
 
 ## Installation
 How do I run your code?
 1. Download the required data files and unzip them
-4. Modify the paths in `Ovary_Endometrioma_Analysis.R` to match your preferred local file structure
-5. Run the code (make sure to install libraries which you are missing)
+2. Modify the paths in `Ovary_Endometrioma_Analysis.R` to match your preferred local file structure
+3. Minor path adjustments are needed to run python scripts. Note that most of the data are unavailable due to size limitations (>1TB total).
+4. Run the code (make sure to install libraries which you are missing)
 
 See comments in Rscript for required libraries and versions.
 
